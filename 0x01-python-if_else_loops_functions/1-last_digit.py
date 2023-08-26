@@ -11,7 +11,9 @@ if lastdigit < 0:
 print(f"Last digit of {number:d} is {lastdigit:d} and is ", end="")
 if lastdigit > 5:
     print("greater than 5")
-if lastdigit == 0:
+elif lastdigit == 0:
     print("0")
-if lastdigit < 6 and lastdigit != 0:
+elif lastdigit < 6 and lastdigit != 0:
     print("less than 6 not 0")
+else:
+    print(" ")
