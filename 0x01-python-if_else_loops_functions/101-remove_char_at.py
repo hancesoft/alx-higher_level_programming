@@ -1,4 +1,4 @@
-#!/bin/usr/python3
+#!/usr/bin/python3
 # remove char at specified index
 
 def remove_char_at(str, n):
